@@ -54,8 +54,8 @@
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" groups="pdk-fs" remote="pure" revision="mm" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pure" revision="mm" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pure" revision="mm" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="pure" revision="mm" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="mm" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="pure" revision="mm2" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="mm2" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-fs" remote="pure" revision="mm2" />
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="pure" revision="mm" />
   <project path="packages/apps/PureNexusSettings" name="android_packages_apps_PureNexusSettings" remote="pure" revision="mm" />
@@ -63,7 +63,7 @@
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="generic_fs" remote="pure" revision="mm2" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="pure" revision="mm" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pure" revision="mm" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="pure" revision="mm" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="pure" revision="mm2" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pure" revision="mm" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pure" revision="mm" />
