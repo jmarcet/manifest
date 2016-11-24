@@ -6,8 +6,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+  <remote name="jmarcet"
+	  fetch="https://github.com/jmarcet/" /> 
   <remote name="pure"
            fetch="https://github.com/PureNexusProject-Legacy/" /> 
+  <remote name="umang"
+	  fetch="https://github.com/Umang96/" /> 
   <default revision="refs/tags/android-6.0.1_r62"
            remote="aosp"
            sync-c="true"
@@ -29,6 +33,7 @@
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm2" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2" />
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="mm2" />
+  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" groups="device,kenzo" remote="jmarcet" revision="mm2" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="mm2" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="pure" revision="mm2" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pure" revision="mm2" />
@@ -93,6 +98,7 @@
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="mm2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="mm2" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="pure" revision="mm2" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="umang" revision="cm-13.0" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
